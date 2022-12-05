@@ -24,6 +24,6 @@ from boxify.draw.bbox import draw_bbox
 draw_bbox(source_format="pascal", image=<path to image>, annotations=[[169, 104, 209, 146]], show=True, output_path=<path to save the file>)
 ```
 
-image - Path can either be local path or a valid URL
-show - To show matplotlib image, set it to True.
-output_path - Local path to save the image. If target is a directory, the file is saved as `test.jpg`
+1. image - Path can either be local path or a valid URL
+2. show - To show matplotlib image, set it to True.
+3. output_path - Local path to save the image. If target is a directory, the file is saved as `test.jpg`
